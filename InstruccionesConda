@@ -1,0 +1,13 @@
+conda create --no-default-packages --name arima -y && conda activate arima
+
+
+conda install matplotlib
+conda install statsmodels
+conda install seaborn
+conda install pmdarima
+conda install -c conda-forge yfinance
+conda install jupyter
+conda install -c conda-forge pandas-ta
+
+conda install pandas  matplotlib scikit-learn statsmodels jupyter -y
+
